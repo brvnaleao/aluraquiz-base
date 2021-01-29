@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import db from '../db.json'
-import Widget from '../src/components/Widget/index'
-import BackGround from '../src/components/QuizBackGround/index'
+import Widget from '../src/components/Widget/'
+import QuizBackGround from '../src/components/QuizBackGround/'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 
@@ -18,7 +18,7 @@ const QuizContainer = styled.div`
 `
 
 export default function Home() {
-  return (<BackGround backgroundImage={db.bg}>
+  return (<QuizBackGround backgroundImage={db.bg}>
           <QuizContainer>
            <Widget>
               <Widget.Header>
@@ -34,6 +34,7 @@ export default function Home() {
               <h1>Quizes da galera</h1>
               </Widget.Header> */}
             <Widget.Content>
+
               
               <p>Conheça...</p>
              </Widget.Content>
@@ -41,5 +42,5 @@ export default function Home() {
              <Footer></Footer>
           </QuizContainer>
           <GitHubCorner projectUrl="https://github.com/brvnaleao"></GitHubCorner>
-          </BackGround>)
+          </QuizBackGround>)
 }
