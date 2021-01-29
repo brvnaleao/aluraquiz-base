@@ -32,4 +32,5 @@ const QuizBackGround = styled.div`
   }
 `;
 
+
 export default QuizBackGround;
