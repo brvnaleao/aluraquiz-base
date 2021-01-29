@@ -1,0 +1,20 @@
+{
+    "bg": "https://images.pexels.com/photos/136352/pexels-photo-136352.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+    "title": "Chess Quiz",
+    "description": "Um quiz para aficcionados em xadrez",
+    "question": [],
+    "external": [],
+    "theme": {
+        "colors":{
+            "primary": "#00bcd4",
+            "secondary": "#ff1744",
+            "mainBg": "#42434B" ,
+            "contrastText": "#fff",
+            "wrong": "#ff3d0" ,
+            "success": "#4caf50"
+        },
+        "borderRadius": "4px"
+    }
+
+
+}
