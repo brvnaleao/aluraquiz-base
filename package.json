@@ -16,8 +16,5 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0"
   },
-  "license": "MIT",
-  "engines": {
-    "node": "11.10.0"
-  }
+  "license": "MIT"
 }
